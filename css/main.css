@@ -10,28 +10,31 @@ body {
   margin: 0;
 }
 
-.big-btn {
-  position: absolute;
+.btn-big {
+  position: relative;
+  max-height: 500px;
 }
 
 .img-flex {
   display: block;
   width: 100%;
+  max-height: 50em;
 }
 
 .image {
   float: left;
   display: inline-block;
+  position: absolute;
 }
 
 .content {
+  position: absolute;
   float: right;
   display: inline-block;
   max-width: 50em;
   width: 100%;
+}
+
+.banner-content {
   position: absolute;
-  padding: 0 1rem;
-  bottom: 1rem;
-  left: 50%;
-  transform: translate(-50%);
 }
