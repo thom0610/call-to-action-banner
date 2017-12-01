@@ -9,3 +9,29 @@ html {
 body {
   margin: 0;
 }
+
+.big-btn {
+  position: absolute;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.image {
+  float: left;
+  display: inline-block;
+}
+
+.content {
+  float: right;
+  display: inline-block;
+  max-width: 50em;
+  width: 100%;
+  position: absolute;
+  padding: 0 1rem;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+}
