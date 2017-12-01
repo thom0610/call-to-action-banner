@@ -24,17 +24,15 @@ body {
 .image {
   float: left;
   display: inline-block;
-  position: absolute;
 }
 
 .content {
-  position: absolute;
   float: right;
   display: inline-block;
-  max-width: 50em;
-  width: 100%;
 }
 
 .banner-content {
   position: absolute;
+  bottom: 10px;
+  width: 100%;
 }
